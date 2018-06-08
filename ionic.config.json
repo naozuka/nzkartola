@@ -1,0 +1,14 @@
+{
+  "name": "ionic-nzkartola",
+  "app_id": "nzkartola",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  },
+  "proxies": [
+    {
+      "path":"/nzkartola",
+      "proxyUrl": "https://api.cartolafc.globo.com"
+    }
+  ]
+}
